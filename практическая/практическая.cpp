@@ -1,6 +1,9 @@
-﻿#include <iostream>
-using namespace std;
+﻿//Изменения в программе(добавлен вывод числа 42) :
+#include <iostream>
+using  namespace std;
 int main() {
-	cout << "Hello, World!";
-	return 0;
+    setlocale(0, "RUSS");
+    cout << "Hello, world!" << endl;
+    cout << "number: 42" << endl;
+    return 0;
 }
